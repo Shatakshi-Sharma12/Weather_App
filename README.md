@@ -14,6 +14,9 @@ This app allows you to search for any city and instantly fetch the **current wea
 - ⚡ **Real-Time Data** – Powered by [OpenWeatherMap API](https://openweathermap.org/).
 
 ---
+## 🔗 Try It Live
+
+👉 [Click here to try the Weather Dashboard](https://weather-app-six-rho-46.vercel.app/)
 
 ## 🛠️ Tech Stack
 
