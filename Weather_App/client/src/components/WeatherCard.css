@@ -1,0 +1,104 @@
+.weather-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    animation: cardAppear 0.8s ease-out forwards;
+    transform-origin: center;
+    height: 100%;
+  }
+  
+  @keyframes cardAppear {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .weather-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .city-name {
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: 700;
+    background: linear-gradient(45deg, #fff, #e6e6e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .current-date {
+    margin: 0.5rem 0 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+  }
+  
+  .weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .temperature-container {
+    text-align: center;
+  }
+  
+  .temperature {
+    font-size: 5rem;
+    margin: 0;
+    font-weight: 700;
+    background: linear-gradient(45deg, #fff, #e6e6e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .description {
+    font-size: 1.4rem;
+    margin: 0.5rem 0 0;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .weather-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 2rem;
+  }
+  
+  .detail-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .detail-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .detail-label {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .detail-value {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+  }
