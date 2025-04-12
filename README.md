@@ -2,7 +2,7 @@
 
 Welcome to the **Real-Time Weather Dashboard** — your sleek, responsive, and interactive weather companion! 🌍  
 This app allows you to search for any city and instantly fetch the **current weather** along with a **5-day forecast**, using live data from the OpenWeatherMap API. It even comes with a **dark/light mode toggle** to suit your vibe 🌙☀️.
-Try it here : https://weather-app-six-rho-46.vercel.app/
+
 ---
 
 ## 🚀 Features
